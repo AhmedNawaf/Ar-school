@@ -35,3 +35,18 @@
         }
     }
 }
+
+#best-students {
+    .card {
+        border-radius: 10px;
+        border: 3px solid black;
+        margin: 1.5rem 0;
+        position: relative;
+        .student-badge {
+            width: 90px;
+            position: absolute;
+            left: -30px;
+            top: -30px;
+        }
+    }
+}
