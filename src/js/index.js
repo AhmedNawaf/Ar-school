@@ -5,3 +5,16 @@ import 'popper.js/dist/popper.min';
 import '../sass/style.scss';
 import '@fortawesome/fontawesome-free/js/all.min';
 
+window.addEventListener("DOMContentLoaded", () => {
+    const SCREEN_HEIGHT = Math.round(window.innerHeight);
+
+    window.addEventListener("scroll",() => {
+        let scrollValue = Math.floor(window.scrollY);
+        if(scrollValue > SCREEN_HEIGHT) {
+            $("#navbar").addClass("transparent");
+        }
+        else {
+            $("#navbar").removeClass("transparent");
+        }
+    })
+})

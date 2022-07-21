@@ -1,0 +1,33 @@
+@media (max-width: 768px) {
+    
+    #navbar {
+        .navbar-nav {
+            
+        }
+    }
+
+    #activites-carousel {
+        .overlay {
+            font-size: 2rem !important;
+            text-align: center;
+        }
+    }
+
+    #students {
+        #students-carousel {
+            .carousel-control-prev,.carousel-control-next {
+                display: none;
+            }
+        }
+    }
+    
+    #best-students {
+        .card {
+            .student-badge {
+                width: 70px;
+                left: -15px;
+            }
+        }
+    }
+}
+

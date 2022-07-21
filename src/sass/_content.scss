@@ -50,3 +50,29 @@
         }
     }
 }
+
+#contact-us {
+    background-color: rgba(0, 0, 0, 0.9);
+    form {
+        label {
+            font-size: 1.3rem;
+        }
+        input {
+            font-size: 1.3rem;
+            font-weight: 600;
+        }
+        button {
+            font-weight: bold;
+        }
+    }
+    .location {
+        width: 100%;
+        height: 400px;
+        iframe {
+            width: inherit;
+            height: inherit;
+            border-radius: 10px;
+            border: 0;
+        }
+    }
+}
