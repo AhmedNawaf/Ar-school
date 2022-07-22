@@ -1,8 +1,8 @@
 @media (max-width: 768px) {
-    
+
     #navbar {
         .navbar-nav {
-            
+            text-align: center;
         }
     }
 
@@ -10,6 +10,9 @@
         .overlay {
             font-size: 2rem !important;
             text-align: center;
+        }
+        .carousel-control-prev,.carousel-control-next {
+            display: none;
         }
     }
 

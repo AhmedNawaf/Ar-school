@@ -16,5 +16,11 @@ window.addEventListener("DOMContentLoaded", () => {
         else {
             $("#navbar").removeClass("transparent");
         }
+    });
+
+    $("#password-confirm").on("change", () => {
+        if($("#password").val() != $("password-confirm").val()) {
+            $("#password-error").removeClass("text-hide");
+        }
     })
-})
+});
