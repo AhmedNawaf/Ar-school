@@ -3,7 +3,6 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const path = require('path');
 
 module.exports = {
-
   entry: './src/js/index.js',
 
   output: {
@@ -85,6 +84,10 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/first-student.html',
       filename: 'first-student.html',
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/second-student.html',
+      filename: 'second-student.html',
     }),
     new MiniCssExtractPlugin({
       filename: "css/style.css"
