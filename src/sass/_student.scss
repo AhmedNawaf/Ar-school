@@ -36,24 +36,11 @@
 }
 
 // Edit color below for each page
-// id format = #student-"section"-"student number"
 
 // Student 1
 
-#student-info-1 {
-    background-color: $student1-info;
-}
-
-#student-grades-1 {
-    background-color: $student1-grades;
-}
+@include changeStudentColor($student1-info, $student1-grades, 1);
 
 // Student 2
 
-#student-info-2 {
-    background-color: $student2-info; 
-}
-
-#student-grades-2 {
-    background-color: $student2-grades;
-}
+@include changeStudentColor($student2-info, $student2-grades, 2);

@@ -1,0 +1,9 @@
+@mixin  changeStudentColor($color1, $color2,$number) {
+    #student-info-#{$number} {
+        background-color: $color1;
+    }
+    
+    #student-grades-#{$number} {
+        background-color: $color2;
+    }
+}
